@@ -1,0 +1,29 @@
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.commerce {
+    padding: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.hidden-commerce {
+    display: none;
+}
+
+.commerce:hover .hidden-commerce, .commerce:focus .hidden-commerce {
+    display: block;
+    color: #761c19;
+    font-size: 16px;
+}
+
+#carousel-example-generic {
+    margin-bottom: 25px;
+}
